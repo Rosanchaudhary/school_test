@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <title>Vite App</title>
+    <link rel="stylesheet" href="/assets/style-a53948c9.css">
+  </head>
+  <body class="bg-[#215E94] w-screen h-screen">
+    <div
+      class="h-[100px] w-full flex flex-row justify-between items-center px-[50px]"
+    >
+      <div
+        class="bg-white h-[50px] w-[100px] rounded-full flex flex-col justify-center items-center"
+      >
+        <h1 class="text-[#215E94] font-bold text-[20px]">BACK</h1>
+      </div>
+      <div
+        class="bg-white h-[50px] w-[160px] rounded-full flex flex-col justify-center items-center"
+      >
+        <h1 class="text-[#215E94] font-bold text-[20px]">MAIN MENU</h1>
+      </div>
+    </div>
+    <div class="flex flex-row justify-center items-center">
+      <div
+        class="h-[459px] w-[509px] bg-[#8facc7] drop-shadow-[0_3px_19px_rgba(0,0,0,0.16)] border border-[#707070] rounded-3xl flex flex-col justify-between items-center p-[30px]"
+      >
+        <div class="dropdown">
+          <div class="dropdown-toggle" onclick="toggleDropdown()">
+            Select Group
+          </div>
+          <div class="dropdown-menu" id="myDropdown">
+            <div
+              class="dropdown-item"
+              onclick="selectOption('7')"
+            >
+              7
+            </div>
+            <div class="dropdown-item" onclick="selectOption('8')">
+              8
+            </div>
+            <div class="dropdown-item" onclick="selectOption('9')">
+              9
+            </div>
+            <div class="dropdown-item" onclick="selectOption('10')">
+              10
+            </div>
+          </div>
+        </div>
+        <a href="./sixth.html">
+          <div
+            class="w-[250px] h-[60px] bg-[#d4e0e8] border-[4px] border-[#707070] rounded-full flex flex-row justify-center items-center"
+          >
+            <h1 class="text-[#215E94] font-bold text-[40px]">CONFIRM</h1>
+          </div></a
+        >
+      </div>
+    </div>
+    <script src="../script.js"></script>
+  </body>
+</html>
